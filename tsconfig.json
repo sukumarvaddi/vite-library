@@ -22,8 +22,9 @@
 
     "outDir": "./dist/types",
     "declaration": true,
-    "declarationDir": "./dist/types"
+    "declarationDir": "./dist/types",
+    "composite": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
 }
