@@ -20,9 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "outDir": "./dist/types",
-    "declaration": true,
-    "declarationDir": "./dist/types",
     "composite": true,
     "allowSyntheticDefaultImports": true
   },
